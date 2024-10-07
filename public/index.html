@@ -9,11 +9,21 @@
   <meta name="description" content="これはサンプルのウェブページです">
   <link rel="stylesheet" href="styles.css"> <!-- 外部スタイルシートがあればここにリンク -->
   <script src="src/script.js" defer></script> <!--スクリプト-->
+  <style>
+    .chugoku-serif-font {
+      font-family: 'SimSun', serif;
+    }
+  </style><!--中国語セリフ体（明朝体）フォント-->
+  <style>
+    .chugoku-sansserif-font {
+      font-family: 'Microsoft Yahei', sans-serif;
+    }
+  </style><!--中国語サンセリフ体（ゴシック体）フォント-->
 </head>
 
 <body>
   <header>
-    <h1>【令和最新版】ウェブページ</h1>
+    <h1>【<span class="chugoku-serif-font">令和最新版</span>】ウェブページ</h1>
     <nav>
       <ul>
         <li><a href="#">ホーム</a></li>
